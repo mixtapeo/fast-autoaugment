@@ -1,0 +1,36 @@
+model:
+  type: yolo
+  depth: 4                # Or a depth suitable for your YOLOv7 nano variant
+  feature_extractor: false
+  num_classes: 10         # Assuming CIFAR-10, adjust if different
+  bottleneck: True
+  bottleneck_ratio: 0.75  # Adjust based on your YOLOv7 nano variant
+
+aug: default              # Use default (likely simpler/faster) augmentation for a quick run
+cutout: 0                 # Disable cutout to speed up data loading/augmentation slightly
+
+lr: 0.01                  # Adjusted learning rate for very few epochs
+lr_schedule:
+  type: cosine
+  args:
+    max_epoch: 1          # Corresponds to the main 'epoch' setting below
+    lr_min: 0.001         # Min learning rate
+
+optimizer:
+  type: sgd
+  momentum: 0.9
+  nesterov: True
+  decay: 0.0005           # Weight decay
+  clip: 0                 # Gradient clipping (0 means no clipping)
+  ema_interval: 0.001     # Exponential Moving Average interval
+  ema: 0.999              # EMA decay
+
+batch: 64                 # Batch size (adjust based on GPU memory)
+epoch: 1                  # Run for only 1 epoch for each training phase
+dataset: cifar10            # Dataset name
+
+log:
+  path: logs/yolov8_nano.log # Log path
+
+dataloader:
+  workers: 4             # Number of dataloader workers (adjust based on CPU cores)

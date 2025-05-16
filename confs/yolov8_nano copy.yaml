@@ -1,0 +1,36 @@
+model:
+  type: yolo
+  depth: 4
+  feature_extractor: false 
+  num_classes: 10
+  bottleneck: True 
+  bottleneck_ratio: 0.75  # Updated: wider bottlenecks (was 0.5)
+
+aug: fa_reduced_cifar10  
+cutout: 16  
+
+lr: 0.1  
+lr_schedule:
+  type: cosine
+  args:
+    max_epoch: 200  # Updated: longer schedule
+    lr_min: 0.00001  # Updated: lower final LR
+
+optimizer:
+  type: sgd
+  momentum: 0.9  
+  nesterov: True  
+  decay: 0.0005  
+  clip: 0  
+  ema_interval: 0.001
+  ema: 0.999  
+
+batch: 1  # Adjust based on your GPU memory
+epoch: 2  # Total training epochs
+dataset: cifar10  # Dataset name
+
+log:
+  path: logs/yolov8_nano.log 
+
+dataloader:
+  workers: 4  # Match cpu cores

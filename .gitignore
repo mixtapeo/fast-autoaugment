@@ -1,0 +1,8 @@
+venv/*
+datasets/*
+logs/*
+models/*
+policies/*
+*.pth
+test.py
+FastAutoAugment/__pycache__/*

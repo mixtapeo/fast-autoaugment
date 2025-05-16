@@ -1,0 +1,590 @@
+Collecting aiohttp==3.8.6
+  Using cached aiohttp-3.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (987 kB)
+Requirement already satisfied: typing-extensions>=3.7.4 in ./venv/lib/python3.7/site-packages (from aiohttp==3.8.6) (4.7.1)
+Collecting multidict<7.0,>=4.5
+  Using cached multidict-6.0.5-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (99 kB)
+Collecting async-timeout<5.0,>=4.0.0a3
+  Using cached async_timeout-4.0.3-py3-none-any.whl (5.7 kB)
+Collecting yarl<2.0,>=1.0
+  Using cached yarl-1.9.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (289 kB)
+Collecting asynctest==0.13.0
+  Using cached asynctest-0.13.0-py3-none-any.whl (26 kB)
+Collecting frozenlist>=1.1.1
+  Using cached frozenlist-1.3.3-cp37-cp37m-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (148 kB)
+Collecting aiosignal>=1.1.2
+  Using cached aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Collecting attrs>=17.3.0
+  Using cached attrs-24.2.0-py3-none-any.whl (63 kB)
+Collecting charset-normalizer<4.0,>=2.0
+  Downloading charset_normalizer-3.4.2-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (141 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 141.3/141.3 kB 4.6 MB/s eta 0:00:00
+Collecting importlib-metadata
+  Using cached importlib_metadata-6.7.0-py3-none-any.whl (22 kB)
+Collecting idna>=2.0
+  Using cached idna-3.10-py3-none-any.whl (70 kB)
+Collecting zipp>=0.5
+  Using cached zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Installing collected packages: zipp, multidict, idna, frozenlist, charset-normalizer, asynctest, async-timeout, yarl, importlib-metadata, aiosignal, attrs, aiohttp
+Successfully installed aiohttp-3.8.6 aiosignal-1.3.1 async-timeout-4.0.3 asynctest-0.13.0 attrs-24.2.0 charset-normalizer-3.4.2 frozenlist-1.3.3 idna-3.10 importlib-metadata-6.7.0 multidict-6.0.5 yarl-1.9.4 zipp-3.15.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting aiohttp-cors==0.7.0
+  Using cached aiohttp_cors-0.7.0-py3-none-any.whl (27 kB)
+Requirement already satisfied: aiohttp>=1.1 in ./venv/lib/python3.7/site-packages (from aiohttp-cors==0.7.0) (3.8.6)
+Requirement already satisfied: yarl<2.0,>=1.0 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (1.9.4)
+Requirement already satisfied: async-timeout<5.0,>=4.0.0a3 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (4.0.3)
+Requirement already satisfied: typing-extensions>=3.7.4 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (4.7.1)
+Requirement already satisfied: multidict<7.0,>=4.5 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (6.0.5)
+Requirement already satisfied: attrs>=17.3.0 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (24.2.0)
+Requirement already satisfied: aiosignal>=1.1.2 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (1.3.1)
+Requirement already satisfied: asynctest==0.13.0 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (0.13.0)
+Requirement already satisfied: charset-normalizer<4.0,>=2.0 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (3.4.2)
+Requirement already satisfied: frozenlist>=1.1.1 in ./venv/lib/python3.7/site-packages (from aiohttp>=1.1->aiohttp-cors==0.7.0) (1.3.3)
+Requirement already satisfied: importlib-metadata in ./venv/lib/python3.7/site-packages (from attrs>=17.3.0->aiohttp>=1.1->aiohttp-cors==0.7.0) (6.7.0)
+Requirement already satisfied: idna>=2.0 in ./venv/lib/python3.7/site-packages (from yarl<2.0,>=1.0->aiohttp>=1.1->aiohttp-cors==0.7.0) (3.10)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata->attrs>=17.3.0->aiohttp>=1.1->aiohttp-cors==0.7.0) (3.15.0)
+Installing collected packages: aiohttp-cors
+Successfully installed aiohttp-cors-0.7.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting aioredis==2.0.1
+  Using cached aioredis-2.0.1-py3-none-any.whl (71 kB)
+Requirement already satisfied: typing-extensions in ./venv/lib/python3.7/site-packages (from aioredis==2.0.1) (4.7.1)
+Requirement already satisfied: async-timeout in ./venv/lib/python3.7/site-packages (from aioredis==2.0.1) (4.0.3)
+Installing collected packages: aioredis
+Successfully installed aioredis-2.0.1
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Requirement already satisfied: aiosignal==1.3.1 in ./venv/lib/python3.7/site-packages (1.3.1)
+Requirement already satisfied: frozenlist>=1.1.0 in ./venv/lib/python3.7/site-packages (from aiosignal==1.3.1) (1.3.3)
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Requirement already satisfied: async-timeout==4.0.3 in ./venv/lib/python3.7/site-packages (4.0.3)
+Requirement already satisfied: typing-extensions>=3.6.5 in ./venv/lib/python3.7/site-packages (from async-timeout==4.0.3) (4.7.1)
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Requirement already satisfied: asynctest==0.13.0 in ./venv/lib/python3.7/site-packages (0.13.0)
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Requirement already satisfied: attrs==24.2.0 in ./venv/lib/python3.7/site-packages (24.2.0)
+Requirement already satisfied: importlib-metadata in ./venv/lib/python3.7/site-packages (from attrs==24.2.0) (6.7.0)
+Requirement already satisfied: typing-extensions>=3.6.4 in ./venv/lib/python3.7/site-packages (from importlib-metadata->attrs==24.2.0) (4.7.1)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.7/site-packages (from importlib-metadata->attrs==24.2.0) (3.15.0)
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting beautifulsoup4==4.13.3
+  Using cached beautifulsoup4-4.13.3-py3-none-any.whl (186 kB)
+Collecting soupsieve>1.2
+  Using cached soupsieve-2.4.1-py3-none-any.whl (36 kB)
+Requirement already satisfied: typing-extensions>=4.0.0 in ./venv/lib/python3.7/site-packages (from beautifulsoup4==4.13.3) (4.7.1)
+Installing collected packages: soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.13.3 soupsieve-2.4.1
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting blessed==1.20.0
+  Using cached blessed-1.20.0-py2.py3-none-any.whl (58 kB)
+Collecting six>=1.9.0
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting wcwidth>=0.1.4
+  Using cached wcwidth-0.2.13-py2.py3-none-any.whl (34 kB)
+Installing collected packages: wcwidth, six, blessed
+Successfully installed blessed-1.20.0 six-1.17.0 wcwidth-0.2.13
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 29, in <module>
+    from pip._internal.utils.misc import ensure_dir
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/misc.py", line 43, in <module>
+    from pip._internal.locations import get_major_minor_version
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/locations/__init__.py", line 66, in <module>
+    from . import _distutils
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/locations/_distutils.py", line 20, in <module>
+    from distutils.cmd import Command as DistutilsCommand
+  File "/usr/lib/python3.7/distutils/cmd.py", line 9, in <module>
+    from distutils import util, dir_util, file_util, archive_util, dep_util
+KeyboardInterrupt
+ERROR: Operation cancelled by user
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 15, in <module>
+    from pip._vendor.packaging.requirements import Requirement
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py", line 10, in <module>
+    from pip._vendor.pyparsing import (  # noqa
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/__init__.py", line 140, in <module>
+    from .core import __diag__, __compat__
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 5675, in <module>
+    _charRange = Group(_singleChar + Suppress("-") + _singleChar)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 5588, in __init__
+    super().__init__(expr)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 5369, in __init__
+    super().__init__(expr)  # , savelist)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 4353, in __init__
+    expr = self._literalStringClass(expr)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 2315, in __init__
+    def __init__(self, match_string: str = "", *, matchString: str = ""):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 15, in <module>
+    from pip._vendor.packaging.requirements import Requirement
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py", line 84, in <module>
+    REQUIREMENT.parseString("x[]")
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 1131, in parse_string
+    loc, tokens = self._parse(instring, 0)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 4117, in parseImpl
+    doActions,
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 3865, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 3886, in parseImpl
+    loc, exprtokens = e._parse(instring, loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 4959, in parseImpl
+    loc, tokens = self_expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 4117, in parseImpl
+    doActions,
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 4375, in parseImpl
+    return self.expr._parse(instring, loc, doActions, callPreParse=False)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 3865, in parseImpl
+    instring, loc, doActions, callPreParse=False
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 3958, in parseImpl
+    loc2 = e.try_parse(instring, loc, raise_fatal=True)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 880, in try_parse
+    return self._parse(instring, loc, doActions=False)[0]
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 817, in _parseNoCache
+    loc, tokens = self.parseImpl(instring, pre_loc, doActions)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 2985, in parseImpl
+    result = self.re_match(instring, loc)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 85, in __get__
+    ret = instance.__dict__[self._func.__name__] = self._func(instance)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 2975, in re_match
+    return self.re.match
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 85, in __get__
+    ret = instance.__dict__[self._func.__name__] = self._func(instance)
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 2967, in re
+    return re.compile(self.pattern, self.flags)
+  File "/usr/lib/python3.7/re.py", line 236, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.7/re.py", line 288, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.7/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.7/sre_parse.py", line 924, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 828, in _parse
+    for i in range(len(subpattern))[::-1]:
+KeyboardInterrupt
+ERROR: Operation cancelled by user
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 29, in <module>
+    from pip._internal.utils.misc import ensure_dir
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/misc.py", line 43, in <module>
+    from pip._internal.locations import get_major_minor_version
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/locations/__init__.py", line 66, in <module>
+    from . import _distutils
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/locations/_distutils.py", line 20, in <module>
+    from distutils.cmd import Command as DistutilsCommand
+  File "/usr/lib/python3.7/distutils/cmd.py", line 9, in <module>
+    from distutils import util, dir_util, file_util, archive_util, dep_util
+  File "/usr/lib/python3.7/distutils/util.py", line 14, in <module>
+    from distutils.spawn import spawn
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 4, in <module>
+    import logging.handlers
+  File "/usr/lib/python3.7/logging/handlers.py", line 26, in <module>
+    import logging, socket, os, pickle, struct, time, re
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 857, in get_code
+  File "<frozen importlib._bootstrap_external>", line 525, in _compile_bytecode
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 13, in <module>
+    from pip._vendor.rich.console import (
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/rich/console.py", line 51, in <module>
+    from ._log_render import FormatTimeCallable, LogRender
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/rich/_log_render.py", line 5, in <module>
+    from .text import Text, TextType
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/rich/text.py", line 21, in <module>
+    from .align import AlignMethod
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/rich/align.py", line 10, in <module>
+    from .constrain import Constrain
+  File "<frozen importlib._bootstrap>", line 978, in _find_and_load
+KeyboardInterrupt
+Collecting distlib==0.3.9
+  Using cached distlib-0.3.9-py2.py3-none-any.whl (468 kB)
+Installing collected packages: distlib
+Successfully installed distlib-0.3.9
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting enum34==1.1.10
+  Using cached enum34-1.1.10-py3-none-any.whl (11 kB)
+Installing collected packages: enum34
+Successfully installed enum34-1.1.10
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting exceptiongroup==1.2.2
+  Using cached exceptiongroup-1.2.2-py3-none-any.whl (16 kB)
+Installing collected packages: exceptiongroup
+Successfully installed exceptiongroup-1.2.2
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting filelock==3.12.2
+  Using cached filelock-3.12.2-py3-none-any.whl (10 kB)
+Installing collected packages: filelock
+Successfully installed filelock-3.12.2
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting flatbuffers==25.2.10
+  Using cached flatbuffers-25.2.10-py2.py3-none-any.whl (30 kB)
+Installing collected packages: flatbuffers
+Successfully installed flatbuffers-25.2.10
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting fonttools==4.38.0
+  Using cached fonttools-4.38.0-py3-none-any.whl (965 kB)
+Installing collected packages: fonttools
+Successfully installed fonttools-4.38.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Requirement already satisfied: frozenlist==1.3.3 in ./venv/lib/python3.7/site-packages (1.3.3)
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting fsspec==2023.1.0
+  Using cached fsspec-2023.1.0-py3-none-any.whl (143 kB)
+Installing collected packages: fsspec
+Successfully installed fsspec-2023.1.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting funcsigs==1.0.2
+  Using cached funcsigs-1.0.2-py2.py3-none-any.whl (17 kB)
+Installing collected packages: funcsigs
+Successfully installed funcsigs-1.0.2
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting gitdb==4.0.12
+  Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Collecting smmap<6,>=3.0.1
+  Using cached smmap-5.0.2-py3-none-any.whl (24 kB)
+Installing collected packages: smmap, gitdb
+Successfully installed gitdb-4.0.12 smmap-5.0.2
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting GitPython==3.1.44
+  Using cached GitPython-3.1.44-py3-none-any.whl (207 kB)
+Requirement already satisfied: gitdb<5,>=4.0.1 in ./venv/lib/python3.7/site-packages (from GitPython==3.1.44) (4.0.12)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in ./venv/lib/python3.7/site-packages (from GitPython==3.1.44) (4.7.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in ./venv/lib/python3.7/site-packages (from gitdb<5,>=4.0.1->GitPython==3.1.44) (5.0.2)
+Installing collected packages: GitPython
+Successfully installed GitPython-3.1.44
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting google==3.0.0
+  Using cached google-3.0.0-py2.py3-none-any.whl (45 kB)
+Requirement already satisfied: beautifulsoup4 in ./venv/lib/python3.7/site-packages (from google==3.0.0) (4.13.3)
+Requirement already satisfied: soupsieve>1.2 in ./venv/lib/python3.7/site-packages (from beautifulsoup4->google==3.0.0) (2.4.1)
+Requirement already satisfied: typing-extensions>=4.0.0 in ./venv/lib/python3.7/site-packages (from beautifulsoup4->google==3.0.0) (4.7.1)
+Installing collected packages: google
+Successfully installed google-3.0.0
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Collecting google-api-core==2.24.2
+  Using cached google_api_core-2.24.2-py3-none-any.whl (160 kB)
+Collecting proto-plus<2.0.0,>=1.22.3
+  Using cached proto_plus-1.26.1-py3-none-any.whl (50 kB)
+Collecting protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<7.0.0,>=3.19.5
+  Using cached protobuf-4.24.4-cp37-abi3-manylinux2014_x86_64.whl (311 kB)
+Collecting google-auth<3.0.0,>=2.14.1
+  Downloading google_auth-2.39.0-py2.py3-none-any.whl (212 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 212.3/212.3 kB 5.5 MB/s eta 0:00:00
+Collecting requests<3.0.0,>=2.18.0
+  Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting googleapis-common-protos<2.0.0,>=1.56.2
+  Downloading googleapis_common_protos-1.70.0-py3-none-any.whl (294 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 294.5/294.5 kB 12.9 MB/s eta 0:00:00
+Collecting pyasn1-modules>=0.2.1
+  Using cached pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+Collecting cachetools<6.0,>=2.0.0
+  Using cached cachetools-5.5.2-py3-none-any.whl (10 kB)
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9.1-py3-none-any.whl (34 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached urllib3-2.0.7-py3-none-any.whl (124 kB)
+Requirement already satisfied: idna<4,>=2.5 in ./venv/lib/python3.7/site-packages (from requests<3.0.0,>=2.18.0->google-api-core==2.24.2) (3.10)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2025.4.26-py3-none-any.whl (159 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 159.6/159.6 kB 7.7 MB/s eta 0:00:00
+Requirement already satisfied: charset-normalizer<4,>=2 in ./venv/lib/python3.7/site-packages (from requests<3.0.0,>=2.18.0->google-api-core==2.24.2) (3.4.2)
+Collecting pyasn1<0.6.0,>=0.4.6
+  Using cached pyasn1-0.5.1-py2.py3-none-any.whl (84 kB)
+Installing collected packages: urllib3, pyasn1, protobuf, certifi, cachetools, rsa, requests, pyasn1-modules, proto-plus, googleapis-common-protos, google-auth, google-api-core
+Successfully installed cachetools-5.5.2 certifi-2025.4.26 google-api-core-2.24.2 google-auth-2.39.0 googleapis-common-protos-1.70.0 proto-plus-1.26.1 protobuf-4.24.4 pyasn1-0.5.1 pyasn1-modules-0.3.0 requests-2.31.0 rsa-4.9.1 urllib3-2.0.7
+
+[notice] A new release of pip is available: 23.0.1 -> 24.0
+[notice] To update, run: pip install --upgrade pip
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 13, in <module>
+    from pip._vendor.rich.console import (
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/rich/__init__.py", line 6, in <module>
+    from ._extension import load_ipython_extension  # noqa: F401
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 818, in get_code
+  File "<frozen importlib._bootstrap_external>", line 916, in get_data
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 15, in <module>
+    from pip._vendor.packaging.requirements import Requirement
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py", line 23, in <module>
+    from .markers import MARKER_EXPR, Marker
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/markers.py", line 23, in <module>
+    from .specifiers import InvalidSpecifier, Specifier
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/specifiers.py", line 582, in <module>
+    _prefix_regex = re.compile(r"^([0-9]+)((?:a|b|c|rc)[0-9]+)$")
+  File "/usr/lib/python3.7/re.py", line 236, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.7/re.py", line 288, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.7/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.7/sre_parse.py", line 924, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 594, in _parse
+    subpatternappend((IN, set))
+  File "/usr/lib/python3.7/sre_parse.py", line 172, in append
+    def append(self, code):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 15, in <module>
+    from pip._vendor.packaging.requirements import Requirement
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/packaging/requirements.py", line 10, in <module>
+    from pip._vendor.pyparsing import (  # noqa
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/__init__.py", line 149, in <module>
+    from .common import (
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/common.py", line 8, in <module>
+    class pyparsing_common:
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/common.py", line 228, in pyparsing_common
+    _full_ipv6_address = (_ipv6_part + (":" + _ipv6_part) * 7).set_name(
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/pyparsing/core.py", line 1401, in __radd__
+    if not isinstance(other, ParserElement):
+  File "/usr/lib/python3.7/abc.py", line 139, in __instancecheck__
+    return _abc_instancecheck(cls, instance)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/shared/fast/fast-autoaugment/venv/bin/pip", line 5, in <module>
+    from pip._internal.cli.main import main
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 9, in <module>
+    from pip._internal.build_env import get_runnable_pip
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/build_env.py", line 19, in <module>
+    from pip._internal.cli.spinners import open_spinner
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/cli/spinners.py", line 9, in <module>
+    from pip._internal.utils.logging import get_indentation
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 29, in <module>
+    from pip._internal.utils.misc import ensure_dir
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/utils/misc.py", line 42, in <module>
+    from pip._internal.exceptions import CommandError, ExternallyManagedEnvironment
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_internal/exceptions.py", line 18, in <module>
+    from pip._vendor.requests.models import Request, Response
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/requests/__init__.py", line 43, in <module>
+    from pip._vendor import urllib3
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/__init__.py", line 13, in <module>
+    from .connectionpool import HTTPConnectionPool, HTTPSConnectionPool, connection_from_url
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connectionpool.py", line 12, in <module>
+    from .connection import (
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/connection.py", line 15, in <module>
+    from .util.proxy import create_proxy_ssl_context
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/__init__.py", line 8, in <module>
+    from .ssl_ import (
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/ssl_.py", line 17, in <module>
+    from .url import BRACELESS_IPV6_ADDRZ_RE, IPV4_RE
+  File "/data/shared/fast/fast-autoaugment/venv/lib/python3.7/site-packages/pip/_vendor/urllib3/util/url.py", line 61, in <module>
+    IPV6_RE = re.compile("^" + IPV6_PAT + "$")
+  File "/usr/lib/python3.7/re.py", line 236, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.7/re.py", line 288, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.7/sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "/usr/lib/python3.7/sre_parse.py", line 924, in parse
+    p = _parse_sub(source, pattern, flags & SRE_FLAG_VERBOSE, 0)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 810, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/usr/lib/python3.7/sre_parse.py", line 420, in _parse_sub
+    not nested and not items))
+  File "/usr/lib/python3.7/sre_parse.py", line 523, in _parse
+    this = sourceget()
+  File "/usr/lib/python3.7/sre_parse.py", line 256, in get
+    self.__next()
+  File "/usr/lib/python3.7/sre_parse.py", line 247, in __next
+    self.index = index + 1
+KeyboardInterrupt
