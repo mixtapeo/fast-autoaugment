@@ -6,3 +6,4 @@ policies/*
 *.pth
 test.py
 FastAutoAugment/__pycache__/*
+.idea
