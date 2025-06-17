@@ -26,7 +26,7 @@ def translate(img, x=True, v=0.2):
     """
     :param img: PIL image.
     :param x: A boolean flag indicating whether to translate the image along x (True) or y (False).
-    :param v: The percentage by which the image should be translated (Negative for left/up, Positive for right/down).
+    :param v: The percentage by which the image should be translated (Positive for left/up, Negative for right/down).
     :return: Translated PIL image.
     """
     if x:
